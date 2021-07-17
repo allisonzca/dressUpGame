@@ -1,0 +1,133 @@
+@font-face {
+	font-family: print;
+	src: url("PrintClearly.otf");
+}
+
+body {
+	margin: 0px;
+}
+* {
+	font-family: print;
+}
+h1 {
+	font-weight: normal;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+}
+
+#screen {
+	float: left;
+}
+
+
+#items {
+	float: left;
+	width: 300px;
+	max-height: 500px;
+	overflow: scroll;
+	overflow-x: hidden;
+	background-color: white;
+}
+
+#items li {
+	transition: 0.3s;
+}
+
+#items li:hover {
+	background-color: #A9B978;
+	transition: 0.3s;
+}
+
+.item img {
+	width: 100px;
+	padding: 10px;
+}
+
+#clearButtons {
+	text-align: center;
+}
+
+button {
+	font-size: 12pt;
+	background-color: #B8BB9A;
+	border: none;
+	color: #4b5437;
+	padding: 10px;
+	margin: 10px 5px;
+}
+
+button:hover {
+	background-color: #CE704A;
+	color: white;
+	transition: 0.3s;
+}
+
+#filters {
+	text-align: center;
+	position: sticky;
+	top: 0px;
+}
+
+#rain {
+	width: 100px;
+	background-color: #17517E;
+	color: white;
+}
+
+#clouds {
+	width: 100px;
+	color: white;
+	background-color: #3E91A3;
+}
+
+#rain:hover {
+	color: white;
+	background-color: #4F80B7;
+}
+
+#clouds:hover {
+	color: white;
+	background-color: #90B9DC;
+}
+
+#skin {
+	width: 100px;
+}
+
+main {
+	max-width: 1024px;
+	margin: auto;
+}
+
+audio {
+	display: block;
+	margin: auto;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbdcd3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A9B978;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5437;
+}
